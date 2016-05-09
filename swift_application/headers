@@ -1,0 +1,17 @@
+root@ubuntu-VirtualBox:/home/ubuntu/S_app/swift_application# curl -X GET http://127.0.0.1:8080/v1/AUTH_J/container -i
+HTTP/1.1 200 OK
+Content-Length: 59
+X-Container-Object-Count: 4
+Accept-Ranges: bytes
+X-Storage-Policy: gold
+X-Container-Meta-Access-Control-Allow-Origin: *
+X-Container-Bytes-Used: 255948
+X-Timestamp: 1462516376.22533
+Content-Type: text/plain; charset=utf-8
+X-Trans-Id: txe0d79189122a40e0a77a4-00572c670d
+Date: Fri, 06 May 2016 09:42:37 GMT
+
+angular.min.js
+example_01.html
+example_01.js
+jquery.min.js
